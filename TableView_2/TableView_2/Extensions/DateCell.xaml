@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="TableView_2.Extensions.DateCell">
+
+    <StackLayout Orientation="Horizontal" Padding="10,0">
+        <!-- Binding Source was set to this object in the code behind -->
+        <Label Text="{Binding myLabel}" VerticalOptions="Center" />
+        <DatePicker Date="1 Jul 2018" HorizontalOptions="EndAndExpand" />
+    </StackLayout>
+</ViewCell>

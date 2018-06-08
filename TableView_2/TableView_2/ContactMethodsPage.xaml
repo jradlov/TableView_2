@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TableView_2.ContactMethodsPage">
+    
+    <!-- want the MainPage to be notified when an item is selected -->
+    <!-- listView is private and can't be accessed from outside this object -->
+    <ListView x:Name="listView" />
+</ContentPage>
